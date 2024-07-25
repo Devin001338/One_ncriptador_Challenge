@@ -8,10 +8,24 @@
     <title>ONE Challenge</title>
 </head>
 <body>
-    <header>
-        <img src="./assets/Logo.svg" alt="">
+    <header class="header">
+        <nav class="header_nav"><img src="./assets/Logo.png" alt="Alura Logo"></nav>
     </header>
-    <main></main>
+    <main class="encriptador">
+        <input type="text" id="encriptador_texto" placeholder="Ingrese el texto aqui">
+        <div class="botones_accion">
+            <p class="indicaciones">
+                <img src="./assets/bi_exclamation-circle-fill.png" alt="Indicaciones">
+                Solo letras minúsculas y sin acentos
+            </p>
+            <button class="btn_encriptar">Encriptar</button>
+            <button class="btn_desencriptar">Desencriptar</button>
+        </div>
+        <section class="resultado">
+            <img src="./assets/Muñeco.png" alt="Imagen de referencia">
+
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
