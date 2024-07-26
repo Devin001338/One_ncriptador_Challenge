@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/style.css">
-
+    <script src="./js/app.js"></script>
     <title>ONE Challenge</title>
 </head>
 
@@ -24,14 +24,13 @@
             <button class="btn_desencriptar">Desencriptar</button>
 
         </section>
-        <section class="resultado">
-            <img src="./assets/Muñeco.png" alt="Imagen de referencia">
-            <h1>
-                Ningun mensaje fue encontrado
-            </h1>
-            <p>
-                Ingresa el texto que quieras encriptar o desencriptar
-            </p>
+        <section class="resultado" id="resultado">
+            <img src="./assets/Muñeco.png" alt="Imagen de referencia" id="munecoImagen">
+            <h1 id="resultadoTitulo">Ningún mensaje fue encontrado</h1>
+            <p id="resultadoParrafo">Ingresa el texto que quieras encriptar o desencriptar</p>
+            <textarea id="textoResultado" readonly style="display: none;"></textarea>
+            <button id="btnCopiar" style="display: none;">Copiar</button>
+            <button id="btnReset" style="display: none;">Reiniciar</button>
         </section>
     </main>
     <footer></footer>
