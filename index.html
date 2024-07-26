@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/style.css">
-    
+
     <title>ONE Challenge</title>
 </head>
+
 <body>
     <header class="header">
-        <nav class="header_nav">
-            <img src="./assets/Logo.png" alt="Alura Logo">
-            <h1>
-                Alura Latam Challenge
-            </h1>
-        </nav>
+        <img src="./assets/Logo.png" alt="Alura Logo">
     </header>
     <main class="encriptador">
-        <input type="text" id="encriptador_texto" placeholder="Ingrese el texto aqui">
-        <div class="botones_accion">
+        <section class="entrada_texto">
+            <textarea type="text" id="encriptador_texto" placeholder="Ingrese el texto aqui"></textarea>
             <p class="indicaciones">
                 <img src="./assets/bi_exclamation-circle-fill.png" alt="Indicaciones">
                 Solo letras minúsculas y sin acentos
             </p>
             <button class="btn_encriptar">Encriptar</button>
             <button class="btn_desencriptar">Desencriptar</button>
-        </div>
+
+        </section>
         <section class="resultado">
             <img src="./assets/Muñeco.png" alt="Imagen de referencia">
             <h1>
@@ -38,4 +36,5 @@
     </main>
     <footer></footer>
 </body>
+
 </html>
